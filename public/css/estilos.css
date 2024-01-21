@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#registroContainer {
+    text-align: center;
+}
+
+#registrationForm {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#registrationForm h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#registrationForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#registrationForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#registrationForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#registrationForm button:hover {
+    background-color: #0056b3;
+}
+
+#chatContainer {
+    display: none;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cabecera {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#messages li {
+    margin-bottom: 15px;
+}
+
+#form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#input, #destinatario {
+    flex: 1;
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#usuariosConectados {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#usuariosConectados li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.mensajePrivado {
+    color: #555;
+}
+
+.idPropio {
+    font-weight: bold;
+    color: #007bff;
+}
